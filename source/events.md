@@ -35,7 +35,7 @@ The following fields are available on event objects:
 * ``timezone``      Timezone event occurs in (e.g. 'America/Chicago').
 * ``participants``  List of participant objects, consisting of the following fields:
     * ``chamber``   Chamber of participant.
-    * ``type``      Type of participants ('legislator', 'committee')
+    * ``participant_type``      Type of participants ('legislator', 'committee')
     * ``participant`` String representation of participant (e.g. 'Housing Committee', 'Jill Smith')
     * ``id``        Open States id for participant if a match was found (e.g. 'TXC000150', 'MDL000101')
     * ``type``      What role this participant played (will be 'host', 'chair', 'participant').
